@@ -1,0 +1,226 @@
+
+.banner {
+    display: flex;
+    margin-top: 40px;
+}
+
+.bunner__collection {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    width: 307px;
+    height: 88px;
+    margin-left: 133px;
+    margin-top: 320px;
+}
+
+.designed__text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 133px;
+}
+
+.bunner__img {
+    
+    width: 635.49px;
+    height: 461px;
+    margin-left: 445px;
+    margin-top: 142px;
+}
+
+.button__btn {
+    margin-left: 133px;
+}
+
+.bunner__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* color: #FFFFFF; */
+    margin-left: 474px;
+}
+
+/* Каталог */
+
+.catalog {
+    display: flex;
+}
+
+.catalog__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    margin-left: 110px;
+    
+}
+
+.catalog__products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog__kids {
+    margin-right: 20px;
+}
+
+.kids__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.catalog__shop {
+    margin-right: 20px;    
+}
+
+.shop__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.catalog__toys {
+    margin-right: 20px;
+}
+
+.toys__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+     /* color: #FFFFFF; */
+}
+
+.accessories__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+        /* color: #FFFFFF; */
+}
+
+.slider__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Деливери женщина */
+
+.delivery {
+    margin-top: 90px;
+}
+
+
+.delivery__more {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 472px;
+}
+
+/* Брэнды */
+
+.brands__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Информация и карта  */
+
+.info {
+    margin-top: 90px;
+}
+
+.info__design {
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    height: 228px;
+}
+
+.button__info {
+    display: block;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    border: none;
+    width: 123px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #000000;
+    text-align: center;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.contacts__more {
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    height: 209px;
+}
+
+/* футер */
+
+.footer {
+    margin-top: 100px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__button {
+    display: block;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    border: none;
+    width: 81px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #000000;
+    text-align: center;
+    padding: 9px;
+    cursor: pointer;
+}
+
+
