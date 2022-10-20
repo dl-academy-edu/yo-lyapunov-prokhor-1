@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Crimson+Text:ital,wght@1,700&family=Lato:wght@700&family=Montserrat:wght@200;300;600;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/toys.css">
+    <link rel="stylesheet" href="/css/blog.css">
+    <title>Toys</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header">
+            <a href="#" class="header__logo">
+                <div class="header__logo-img">
+                    <img src="../img/dlk.png" alt="">
+                </div>
+               </a>
+                <ul class="header__list">
+                    <li><a href="../pages/blog.html" class="header__list-item">BLOG</a></li>
+                    <li><a href="../pages/catalog.html" class="header__list-item">CATALOG</a></li>
+                    <li><a href="#" class="header__list-item">ABOUT US</a></li>
+                   </ul>
+                <ul class="header__contact">
+                    <li><img class="header__contact-img" src="../img/loupe.svg" alt=""></li>
+                    <li><a href="#" class="header__text">CONTACT US</a></li>
+                   </ul>
+        </div>
+    </header>
+
+    
+<main>
+    <section class="toy">
+        <div class="container">
+            <h1 class="toy__title">Toy for kids</h1>
+                <ul class="toy__home">
+                    <li class="toy__home-item">Home</li>
+                    <li><img class="arrow__home" src="../img/arrowblack.svg" alt=""></li>
+                    <li class="toy__home-it">Catalog</li>
+                    <li><img class="arrow__home" src="../img/arrowblack.svg" alt=""></li>
+                    <li class="toy__home-ite">Toys</li>
+                </ul>                
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filters__navigations">
+                <div class="cost">
+                    <h2 class="filter__cost">Cost</h2>
+                    <input class="range__input" type="range" min="0" max="500" value="50" name="range" step="1">
+                    <div class="cost__items">
+                        <p class="cost__item">0</p>
+                        <p class="cost__item">500</p>
+                    </div>
+                </div>
+                <div class="colouring">
+                    <p class="colouring__text">Color</p>
+                    <input type="checkbox" id="black" name="color">
+                      <label class="colouring__item" for="black"><span class="checkmark">Black</span></label>
+                      <input type="checkbox" id="blue" name="color">
+                      <label class="colouring__item" for="blue"><span class="checkmark">Blue</span></label>
+                      <input type="checkbox" id="green" name="color">
+                      <label class="colouring__item" for="green"><span class="checkmark">Green</span></label>
+                      <input type="checkbox" id="white" name="color">
+                      <label class="colouring__item" for="white"><span class="checkmark">White</span></label>
+                    </div>
+                       <div class="filters__delivery">
+                        <p class="filters__text">Delivery</p>
+                        <div class="radio">
+                            <input class="radio__input" name="free" type="radio" id="radio_1">
+                            <label class="radio__label" for="radio_1"><span class="checkmark__radio">Free shipping</span></label>
+                        </div> 
+                        <div class="radio">
+                            <input class="radio__input" name="free" type="radio" id="radio_2">
+                            <label class="radio__label" for="radio_2"><span class="checkmark__radio">Fast shipping</span></label>
+                        </div> 
+                       </div>
+                       <div class="amount">
+                        <p class="amount__title">Amount</p>
+                        <div class="amount__wrapper">
+                            <div class="amount_radio">
+                                <input id="radio__one" type="radio" name="radio" value="1">
+                                <label for="radio__one"><span class="checkmark__amount">0-5</span></label>
+                            </div>
+                            <div class="amount_radio">
+                                <input id="radio__two" type="radio" name="radio" value="2">
+                                <label for="radio__two"><span class="checkmark__amount">10-20</span></label>
+                            </div>
+                            <div class="amount_radio">
+                                <input id="radio__three" type="radio" name="radio" value="3">
+                                <label for="radio__three"><span class="checkmark__amount">20-50</span></label>
+                            </div>
+                        </div>
+                       </div>
+                       <button type="submit" class="button amount__button amount__button--style">Apply</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog__wrap">
+                <div class="catalog__shark">
+                    <img src="../img/shark.png" alt="">
+                    <h3 class="catalog__name__shark">SHARKY BEAN BAG CHAIR COVER</h3>
+                    <p class="price__shark">$60.00 USD</p>
+                </div>
+                <div class="catalog__brass">
+                    <img src="../img/brass.png" alt="">
+                    <p class="catalog__name__brass">BRASS DECO FRAMES</p>
+                    <p class="price__brass">$66.00 USD</p>
+                </div>
+            <div class="catalog__cibo">
+                <img src="../img/cibo.png" alt="">
+                <p class="catalog__name__cibo">CIBO FULL APRON</p>
+                <p class="price__cibo">$60.00 USD</p>
+            </div>
+            <div class="catalog__machine">
+                <img src="../img/machine.png" alt="">
+                <p class="catalog__name__machine">GATCHA GATCHA GUMBALL MACHINE</p>
+                <p class="price__machine">$56.00 USD</p>
+            </div>
+            <div class="catalog__candle">
+                <img src="../img/candle.png" alt="">
+                <p class="catalog__name__candle">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                <p class="price__candle">$29.00 USD</p>
+            </div>
+            <div class="catalog__tangle">
+                <img src="../img/tangle.png" alt="">
+                <p class="catalog__name__tangle">TANGLE SPINNING TEA LIGHT</p>
+                <p class="price__tangle">$56.00 USD</p>
+            </div>
+            </div>
+    </div>
+    </section>
+
+    <div class="slider">
+        <div class="container">
+            <div class="slider__wrapper">
+                <img class="slider__img__left" src="../img/arrowleftwhite.svg" alt="">
+            <ul class="slider__list">
+                <li class="slider__list-item">1</li>
+                <li class="slider__list-item">2</li>
+                <li class="slider__list-item">3</li>
+                <li class="slider__list-item">4</li>
+            </ul>
+            <img class="slider__img__rigth" src="../img/arrowrightwhite.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__aside">
+            <div class="navigation">
+                <p class="navigation__text">Navigation</p>
+                <div class="navigation__line"></div>
+                    <ul class="footer__info">
+                        <li class="footer__info-item">About Us</li>
+                        <li class="footer__info-item">Blog</li>
+                        <li class="footer__info-item">Design Services</li>
+                        <li class="footer__info-item">Featured On</li>
+                        <li class="footer__info-item">2018 Holiday Catalog</li>
+                        <li class="footer__info-item">Shop By Designer</li>
+                    </ul>
+            </div>
+            <div class="customer">
+                <div class="customer__text">Customer Information</div>
+                <div class="customer__line"></div>
+                    <ul class="footer__customer">
+                        <li class="footer__customer-item">Contact Us</li>
+                        <li class="footer__customer-item">Sale Exclusions</li>
+                        <li class="footer__customer-item">Shipping & Returns</li>
+                        <li class="footer__customer-item">Terms & Conditions</li>
+                        <li class="footer__customer-item">Privacy Policy</li>
+                        <li class="footer__customer-item">Search</li>
+                    </ul>
+            </div>
+            <div class="connect__footer">
+                <form action="#" method="POST" class="form__elements"></form>
+                    <div class="connect">
+                        <div class="connect__text">Connect</div>
+                        <div class="connect__line"></div>
+                        <div class="footer__mail">
+                            <input class="footer__input" type="text" placeholder="Email">
+                            <button class="footer__button">Join</button>
+                        </div>
+                            <ul class="footer__links">
+                                <li class="footer__img-item"><img src="../img/facebook.svg" alt=""></li>
+                                <li class="footer__img-item"><img src="../img/twitter.svg" alt=""></li>
+                                <li class="footer__img-item"><img src="../img/pinterest.svg" alt=""></li>
+                                <li class="footer__img-item"><img src="../img/instagram.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="line__footer"></div>
+            <div class="footer__box">
+                <div class="company">
+                    <p class="company__text">Company Rating</p>
+                    <div class="rating-mini">
+                        <div class="rating-area">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>	
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>    
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>  
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>    
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div> 
+                    </div>
+                </div>
+                <div class="footer__info-text">Copyright © 2018 Dlk • Design Life Kids</div>
+                <div class="footer__web__text">Web Design — Direct Line Development</div>
+            </div>
+        </div>
+</footer>
+    
+</body>
+
+</html>
