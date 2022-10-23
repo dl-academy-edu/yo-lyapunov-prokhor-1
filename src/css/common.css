@@ -33,7 +33,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    margin-right: 2px;
+    word-spacing: 2px;
 }
 
 .header__text:hover {

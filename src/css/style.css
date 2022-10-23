@@ -828,26 +828,6 @@
 }
 
 /*************************************************************************************************** РЕЙТИНГ */
-        /* Rating */
-
-        .rating {
-            border: none;
-        }
-
-        /* Caption */
-
-        .rating__caption {
-            margin-bottom: 0.5em;
-            padding: 0;
-        }
-
-        /* Group */
-
-        .rating__group {
-            position: relative;
-            width: 95px;
-            height: 13px;
-        }
 
         /* Input */
 
@@ -914,22 +894,25 @@
 	content: '★';
 }
 .rating-area > input:checked ~ label {
-	color: #FFFFFF;;
+	color: #FFFFFF;
 }
 .rating-area:not(:checked) > label:hover,
 .rating-area:not(:checked) > label:hover ~ label {
-	color: #FFFFFF;;
+	color: #FFFFFF;
 }
 .rating-area > input:checked + label:hover,
 .rating-area > input:checked + label:hover ~ label,
 .rating-area > input:checked ~ label:hover,
 .rating-area > input:checked ~ label:hover ~ label,
 .rating-area > label:hover ~ input:checked ~ label {
-	color: #FFFFFF;;
+	color: #FFFFFF;
 }
 .rate-area > label:active {
 	position: relative;
 }
+
+
+
 /***************************************************************************************************** popup */
 
 .section__form {
@@ -949,13 +932,17 @@
    
    .popup__form {
     position: absolute;
-    top: 26%;
-    left: 31%;
+    top: 23%;
+    left: 31.6%;
     background-color: #7D97DA;
     width: 680px;
     padding: 40px 42px;
     background: #E5EAF8;
    }
+
+   .open {
+    display: block;
+}
    
    label {
     font-family: 'Open Sans';
@@ -963,11 +950,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    
-    /* Black */
-    
     color: #1E0606;
-   
     margin-bottom: 3px;
    }
    
@@ -982,16 +965,32 @@
    .input-name {
     width: 600px;
     height: 50px;
+    margin-bottom: 5px;
    }
+
+   .input-name:hover {
+    border: 1px solid #C29974;
+   }
+
+
 
    .input-tel {
     width: 290px;
     height: 50px;
    }
 
+   .input-tel:hover {
+    border: 1px solid #C29974;
+   }
+
+
    .input-email {
     width: 290px;
     height: 50px;
+   }
+
+   .input-email:hover {
+    border: 1px solid #C29974;
    }
    
    .tel-email {
@@ -1032,6 +1031,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #1E0606;
+    margin-top: 4px;
    }
 
    .label-check {
@@ -1059,12 +1059,15 @@
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
-   
     padding: 14px 0 11px 20px;
+    margin-bottom: 20px;
+   }
+
+   .textarea-mess:hover {
+    border: 1px solid #C29974;
    }
    
    .check {
-    margin-bottom: 15px;
    }
 
    
@@ -1097,15 +1100,57 @@
    
    
    .button-close {
+    position: absolute; 
     background: rgba(125, 151, 218, 0.0);
-    background-image: url('/icon/closewhite.svg');
+    background-image: url(/icon/closewhite.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
     width: 15px;
     height: 15px;
-    margin-left: 10px;
+    margin-right: 25px;
    }
 
+   .button-close:hover {
+    opacity: 0.4;
+   }
 
+   .button-close:active {
+    opacity: 0.5;
+   }
+
+/**************************************************** связывание чекбокс+баттон */
+   .input-check ~ .button__form {
+    display: none;
+   }
    
+   .input-check:checked ~ .button-disabled  {
+    display: none;
+   }
+   
+   .input-check:checked ~ .button__form {
+    display: block;
+    margin-top: 20px;
+   }
+
+   .button-disabled {
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    border: none;
+    background: #000000;
+    text-align: center;
+    padding: 9px 22px;
+    cursor: pointer;
+    margin-top: 20px;
+   }
+
+   .colouring__item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+   }

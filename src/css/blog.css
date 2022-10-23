@@ -31,6 +31,10 @@
     margin-right: 20px;
 }
 
+.blog__home-it:hover {
+    opacity: 0.5;
+}
+
 .blog__home-item {
     font-family: 'Crimson Text';
     font-style: italic;

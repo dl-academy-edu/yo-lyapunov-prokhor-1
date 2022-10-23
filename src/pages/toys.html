@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/catalog.css">
     <link rel="stylesheet" href="/css/toys.css">
     <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/contactus.css">
     <title>Toys</title>
 </head>
 <body>
@@ -40,9 +41,9 @@
         <div class="container">
             <h1 class="toy__title">Toy for kids</h1>
                 <ul class="toy__home">
-                    <li class="toy__home-item">Home</li>
+                    <li><a class="toy__home-item" href="../index.html">Home</a></li>
                     <li><img class="arrow__home" src="../img/arrowblack.svg" alt=""></li>
-                    <li class="toy__home-it">Catalog</li>
+                    <li><a class="toy__home-it" href="./catalog.html">Catalog</a></li>
                     <li><img class="arrow__home" src="../img/arrowblack.svg" alt=""></li>
                     <li class="toy__home-ite">Toys</li>
                 </ul>                
@@ -82,21 +83,19 @@
                             <label class="radio__label" for="radio_2"><span class="checkmark__radio">Fast shipping</span></label>
                         </div> 
                        </div>
-                       <div class="amount">
+                       <div class="amount__group">
                         <p class="amount__title">Amount</p>
-                        <div class="amount__wrapper">
-                            <div class="amount_radio">
-                                <input id="radio__one" type="radio" name="radio" value="1">
-                                <label for="radio__one"><span class="checkmark__amount">0-5</span></label>
+                            <div class="amount__group-item">
+                                <input id="radio__one" type="radio" name="radio" value="1" checked>
+                                <label for="radio__one"><span class="amoun__number">0-5</span></label>
                             </div>
-                            <div class="amount_radio">
+                            <div class="amount__group-item">
                                 <input id="radio__two" type="radio" name="radio" value="2">
-                                <label for="radio__two"><span class="checkmark__amount">10-20</span></label>
+                                <label for="radio__two"><span class="amoun__number">10-20</span></label>
                             </div>
-                            <div class="amount_radio">
+                            <div class="amount__group-item">
                                 <input id="radio__three" type="radio" name="radio" value="3">
-                                <label for="radio__three"><span class="checkmark__amount">20-50</span></label>
-                            </div>
+                                <label for="radio__three"><span class="amoun__number">20-50</span></label>
                         </div>
                        </div>
                        <button type="submit" class="button amount__button amount__button--style">Apply</button>
@@ -139,7 +138,7 @@
             </div>
             <div class="catalog__machine">
                 <img src="../img/machine.png" alt="">
-                <a class="machine__learn" href="#">
+                <a class="machine__learn" href="#"> 
                     <div class="learn__more__machine">
                         <p class="machine__text">LEARN MORE</p>
                     </div>

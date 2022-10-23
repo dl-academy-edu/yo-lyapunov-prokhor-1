@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/catalog.css">
     <link rel="stylesheet" href="/css/toys.css">
     <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/contactus.css">
     <title>My new project</title>
 </head>
 
@@ -66,7 +67,7 @@
                     <li class="catalog__shop"><img class="catalog__shop__img" src="./img/holiday.png" alt="HOLIDAY SHOP">
                         <a href="#" class="shop__text">HOLIDAY SHOP</a></li>
                     <li class="catalog__toys"><img class="catalog__toys__img" src="./img/toys.png" alt="">
-                        <a href="#" class="toys__text">TOYS</a></li>
+                        <a href="./pages/toys.html" class="toys__text">TOYS</a></li>
                     <li class="catalog__accessories"><img class="catalog__accessories__img" src="./img/accessories.png" alt="">
                         <a href="#" class="accessories__text">ACCESSORIES</a></li>
                 </ul>
@@ -207,7 +208,7 @@
                                 <input type="radio" id="star-1" name="rating" value="1">
                                 <label for="star-1" title="Оценка «1»"></label>
                             </div> 
-                        </div>                        
+                        </div>                                            
                     <div class="footer__info-text">Copyright © 2018 Dlk • Design Life Kids</div>
                     <div class="footer__web__text">Web Design — Direct Line Development</div>
                 </div>
@@ -219,7 +220,6 @@
     <div class="section__form"> 
         <div class="container__form">
          <div class="popup__form"> 
-            <button class="button-close" type="button"></button>
           <form action="#" method="post">
            <div class="name">
             <label class="name-style" for="name">Name</label>
@@ -240,12 +240,14 @@
             <textarea class="textarea-mess" id="message" name="user-message"></textarea> 
            </div>
            <div class="check">
-            <input class="input-check" type="checkbox" checked id="consent" name="consent">
-            <label class="label-check colouring__item" for="consent">By clicking on the button, you consent to the processing of your personal data</label>
-           </div>
+            <input class="input-check" type="checkbox" id="consent" name="consent">
+            <label class="label-check colouring__item" for="consent"><span>By clicking on the button, you consent to the processing of your personal data</span></label>
            <button class="button__form" type="button">SUBMIT</button>
+       	   <button disabled="disabled" class="button-disabled" type="button">SUBMIT</button>
+           </div>
           </form>
          </div>
+         <button class="button-close" type="button"></button>
         </div>
     </div>
     <script src="./js/script.js"></script>
