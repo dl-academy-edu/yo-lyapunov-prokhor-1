@@ -60,6 +60,7 @@
 
 
 .designed-text {
+    font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
@@ -100,11 +101,8 @@
 
 /**************************************************************************************** Каталог */
 
-.catalog-pro {
 
-}
-
-.catalog__title {
+.catalog-title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -114,13 +112,15 @@
     margin-bottom: 30px;
 }
 
-.catalog__products {
+.catalog-products {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -9px;
+    margin-top: 32px;
 }
 
-.catalog__kids {
+.catalog-kids {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@
     text-decoration: underline; 
 }
 
-.catalog__shop {
+.catalog-shop {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,7 +184,7 @@
     text-decoration: underline;
 }
 
-.catalog__toys {
+.catalog-toys {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,7 +218,7 @@
 }
 
 
-.catalog__accessories {
+.catalog-accessories {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,7 +257,7 @@
     margin-top: 30px;
 }
 
-.catalog__slider {
+.catalog-slider {
     display: flex;
     flex-direction: row;
 }
@@ -417,6 +417,7 @@
     border: none;
     width: 149px;
     height: 40px;
+    font-weight: 700;
     color: #FFFFFF;
     background: #000000;
     text-align: center;
@@ -449,12 +450,14 @@
 
 .info {
     display: flex;
-    margin-top: 118px;
+    margin-top: 122px;
 }
 
 .information {
     display: flex;
-    margin-bottom: 157px;
+    margin-bottom: 164px;
+    margin-top: -8px;
+    margin-left: -2px;
 }
 
 .info__text {
@@ -510,6 +513,7 @@
     border: none;
     width: 123px;
     height: 40px;
+    font-weight: 700;
     color: #FFFFFF;
     background: #000000;
     text-align: center;
@@ -556,9 +560,9 @@
     color: #1E0606;
     width: 483px;
     height: 66px;
-    margin-top: 38px;
+    margin-top: 44px;
     margin-bottom: 30px;
-    margin-left: 35px;
+    margin-left: 33px;
 }
 
 .map {
@@ -726,16 +730,27 @@
 
 .footer__mail {
     display: flex;
-    margin-bottom: 25px;
-    margin-top: 5px;
+    margin-bottom: 25px;    
 }
 
 
 .footer__input {
-    padding: 10px 18px 7px 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding: 6px 18px 7px 15px;
     width: 299px;
+    background: #666666;
+    border-right: none;
 }
 
+.footer__input::-webkit-input-placeholder { 
+    color: #EBEBEB; 
+}
 
 
 
@@ -762,7 +777,7 @@
     height: 1px;
     background: #666666;
     margin-bottom: 23px;
-    margin-top: 19px;
+    margin-top: 12px;
 }
 
 .footer__box {
@@ -776,6 +791,7 @@
     border: none;
     width: 81px;
     height: 40px;
+    font-weight: 700;
     color: #FFFFFF;
     background: #000000;
     text-align: center;
@@ -798,6 +814,7 @@
     line-height: 22px;
     margin-right: 25px;
     color: #FFFFFF;
+    margin-top: 4px;
 }
 
 
@@ -811,6 +828,7 @@
     align-items: center;
     margin-right: 109px;
     color: #FFFFFF;
+    margin-top: 5px;
 }
 
 .footer__web__text {
@@ -820,7 +838,10 @@
     font-size: 16px;
     line-height: 22px;
     color: #A2A2A2;
+    margin-left: 2px;
+    margin-top: 2px;
 }
+
 
 .footer__web__text:hover {
     text-decoration: underline;
@@ -831,51 +852,6 @@
 }
 
 /*************************************************************************************************** РЕЙТИНГ */
-
-        /* Input */
-
-.company {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -8px;
-}
-
-.company__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    margin-right: 25px;
-    color: #FFFFFF;
-}
-
-.rating-mini {
-    margin-right: 155px;
-}
-
-.footer__info-text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    margin-right: 109px;
-    color: #FFFFFF;
-}
-
-.footer__web__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #A2A2A2;
-}
-
 .rating-area {
 	overflow: hidden;
 	width: 97px;
@@ -897,22 +873,28 @@
 	content: '★';
 }
 .rating-area > input:checked ~ label {
-	color: #FFFFFF;
+	color: #FFFFFF;;
 }
 .rating-area:not(:checked) > label:hover,
 .rating-area:not(:checked) > label:hover ~ label {
-	color: #FFFFFF;
+	color: #FFFFFF;;
 }
 .rating-area > input:checked + label:hover,
 .rating-area > input:checked + label:hover ~ label,
 .rating-area > input:checked ~ label:hover,
 .rating-area > input:checked ~ label:hover ~ label,
 .rating-area > label:hover ~ input:checked ~ label {
-	color: #FFFFFF;
+	color: #FFFFFF;;
 }
 .rate-area > label:active {
 	position: relative;
 }
+
+.rating-mini {
+    margin-right: 155px;
+}
+
+
 
 
 
@@ -1090,7 +1072,7 @@
    }
    
    .button-form {
-    background: #C1C1C1;
+    background: #000000;
     display: block;
     font-family: 'Open Sans';
     text-transform: uppercase;
@@ -1098,6 +1080,7 @@
     color: #FFFFFF;
     text-align: center;
     padding: 9px 22px;
+    font-weight: 700;
     cursor: pointer;
    }
    
@@ -1142,8 +1125,9 @@
     font-family: 'Open Sans';
     text-transform: uppercase;
     border: none;
-    background: #000000;
+    background: #C1C1C1;
     text-align: center;
+    font-weight: 700;
     padding: 9px 22px;
     cursor: pointer;
     margin-top: 20px;

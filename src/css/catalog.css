@@ -9,10 +9,15 @@
     margin-top: 60px;
 }
 
+.category {
+    margin-bottom: -56px;
+}
+
 .category__home {
     display: flex;
     align-items: center;
     margin-top: -13px;
+    margin-bottom: 104px;
 }
 
 .category__home-item {

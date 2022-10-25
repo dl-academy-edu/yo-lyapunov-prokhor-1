@@ -11,9 +11,11 @@
 const popup = document.querySelector('.section-form');
 const buttonOpen = document.querySelector('.button-btn-js');
 const buttonClose = document.querySelector('.button-close');
+const emailInput = document.getElementById('name');
 
 buttonOpen.addEventListener('click', function() {
     popup.classList.add('open');
+    emailInput.focus()
 })
 
 buttonClose.addEventListener('click', function() {
@@ -26,5 +28,7 @@ window.addEventListener('keydown', function(event) {
     }
 })
 
-// фокус
+
+
+
 
