@@ -29,6 +29,7 @@
     color: #1E0606;
     margin-right: 20px;
     word-spacing: -2px;
+    margin-left: 18px;
 }
 
 .cont-home-it {
@@ -39,6 +40,7 @@
     line-height: 26px;
     text-transform: capitalize;
     color: #1E0606;
+    margin-left: 18px;
 }
 
 .cont-home-it:hover {
@@ -180,7 +182,7 @@ label {
 }
 
    
-.input__check {
+.input-check {
     margin-right: 15px;
     border: 2px solid #C29974;
     border-radius: 3px;
