@@ -1,4 +1,3 @@
-
 .blog__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -16,7 +15,11 @@
 }
 
 .blog__home {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 50px;
 }
@@ -54,8 +57,11 @@
 }
 
 .des {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
 }
 
 .titles__des {
@@ -82,7 +88,6 @@
     color: #1E0606;
     margin-top: 7px;
     width: 380px;
-    height: 62px;
 }
 
 .des__title:hover {
@@ -104,7 +109,6 @@
     margin-top: 15px;
     margin-bottom: 19px;
     width: 380px;
-    height: 125px;
 }
 
 
@@ -148,7 +152,6 @@
     color: #1E0606;
     margin-top: 15px;
     width: 400px;
-    height: 100px;
 }
 
 .monkey__date {
@@ -172,7 +175,6 @@
     margin-top: 7px;
     margin-bottom: 15px;
     width: 380px;
-    height: 93px;
 }
 
 .monkey__title:hover {
@@ -191,7 +193,6 @@
     line-height: 25px;
     color: #1E0606;
     width: 380px;
-    height: 100px;
 }
 
 .baz {
@@ -237,7 +238,6 @@
     line-height: 25px;
     color: #1E0606;
     width: 380px;
-    height: 100px;
 }
 
 .prinesse {
@@ -265,7 +265,6 @@
     line-height: 31px;
     color: #1E0606;
     width: 380px;
-    height: 93px;
 }
 
 .prinesse__title:hover {
@@ -285,7 +284,6 @@
     color: #1E0606;
     margin-top: 15px;
     width: 380px;
-    height: 100px;
 }
 
 .cubes {
@@ -312,7 +310,6 @@
     line-height: 31px;
     color: #1E0606;
     width: 380px;
-    height: 93px;
 }
 
 .cubes__title:hover {
@@ -331,7 +328,6 @@
     font-size: 18px;
     line-height: 25px;
     color: #1E0606;
-    margin-top: -15px;
+    margin-top: 16px;
     width: 380px;
-    height: 100px;
 }

@@ -1,4 +1,3 @@
-
 .toy__title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -11,7 +10,11 @@
 }
 
 .toy__home {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 50px;
     margin-top: -13px;
@@ -72,11 +75,18 @@
 }
 
 .filters__navigations {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .cost {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-right: 94px;
     margin-top: 43px;
@@ -84,7 +94,12 @@
 
 
 .colouring {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -133,7 +148,11 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked + .colouring-item::before {
     content: '';
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-image: url('../img/check.svg');
     background-repeat: no-repeat;
@@ -208,7 +227,8 @@ input[type="checkbox"]:checked + .colouring-item::before {
 }
 .radio__input {
     -webkit-appearance: none;
-    appearance: none;
+    -moz-appearance: none;
+         appearance: none;
     position: absolute;
 }
 
@@ -232,6 +252,8 @@ input[type="checkbox"]:checked + .colouring-item::before {
     top: 0;
     left: 0;
     z-index: 1;
+    -webkit-transition: border .1s linear;
+    -o-transition: border .1s linear;
     transition: border .1s linear;
     margin-left: -2px;
 }
@@ -250,6 +272,8 @@ input[type="checkbox"]:checked + .colouring-item::before {
     top: 3px;
     left: 3px;
     z-index: 2;
+    -webkit-transition: opacity .1s linear;
+    -o-transition: opacity .1s linear;
     transition: opacity .1s linear;
 }
 
@@ -293,6 +317,7 @@ input[type=range]::-webkit-slider-runnable-track {
     border-radius: 38px;
     -webkit-appearance: none;
     margin-top: -11px;
+    -webkit-box-shadow: -200px  0 0 200px  #C29974;
     box-shadow: -200px  0 0 200px  #C29974;
   }
 
@@ -335,6 +360,8 @@ input[type=range]::-moz-range-thumb {
   }
 
 .cost__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -360,6 +387,8 @@ input[type=range]::-moz-range-thumb {
 	display: inline-block;
 	float: left;  
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -430,13 +459,18 @@ input[type=range]::-moz-range-thumb {
 
 
 .catalog {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 58px;
 }
 
 .catalog__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .catalog__name__shark {
@@ -1000,13 +1034,19 @@ input[type=range]::-moz-range-thumb {
 /**************************************************************************************************************** slader */
 
 .slider__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 76px;
     margin-bottom: 54px;
 }
 
 .slider__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -1038,23 +1078,13 @@ input[type=range]::-moz-range-thumb {
 
 .slider__img__left:hover {
     background: url('../img/arrowlefthover.svg');
+
 }
 
 .slider__img__rigth:active {
-    background: url('../img/arrowraightactive.svg')
+    background: url('../img/arrowraightactive.svg');
 }
 
 .slider__img__left:active {
-    background: url('../img/arrowleftactive.svg')
+    background: url('../img/arrowleftactive.svg'); 
 }
-
-
-
-
-
-
-
-
-
-
-/***************************************************************************************************************** FOOTER */

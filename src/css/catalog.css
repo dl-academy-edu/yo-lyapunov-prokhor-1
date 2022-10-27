@@ -14,7 +14,11 @@
 }
 
 .category__home {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: -13px;
     margin-bottom: 104px;
@@ -56,19 +60,31 @@
 
 
 .catalog__product {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 48px;
 }
 
 .catalog__accessories {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .catalog__kid {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     background: #DBE4DB;
@@ -100,8 +116,14 @@
 
 
 .catalog__sh {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     background: #EADDD3;
@@ -132,8 +154,14 @@
 }
 
 .catalog__toy {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     background: #F8F2DA;
@@ -166,8 +194,14 @@
 
 
 .catalog__access {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     background: #D5D4E1;
@@ -201,8 +235,14 @@
 }
 
 .catalog__bird {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     background: #F3D0DB;
@@ -263,8 +303,14 @@
 }
 
 .catalog__rabbit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     background: #E5EAF8;
@@ -296,7 +342,6 @@
     font-size: 16px;
     line-height: 22px;
     width: 680px;
-    height: 44px;
     color: #1E0606;
     margin-left: 201px;
     margin-top: 24px;
@@ -309,7 +354,6 @@
     font-size: 16px;
     line-height: 22px;
     width: 680px;
-    height: 44px;
     color: #1E0606;
     margin-left: 201px;
     margin-top: 16px;
@@ -322,7 +366,6 @@
     font-size: 16px;
     line-height: 22px;
     width: 680px;
-    height: 66px;
     color: #1E0606;
     margin-left: 201px;
     margin-top: 15px;

@@ -12,7 +12,11 @@
 }
 
 .cont-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -29,7 +33,6 @@
     color: #1E0606;
     margin-right: 20px;
     word-spacing: -2px;
-    margin-left: 18px;
 }
 
 .cont-home-it {
@@ -50,21 +53,28 @@
 /******************************************************************************************* popup */
 
 .contactus-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 130px;
     margin-bottom: 62px;
 }
 
  .container-contactus{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
    
 .popup-contactus {
     width: 680px;
+    height: 542px;
     padding: 40px 42px;
     background: #E5EAF8;
-    margin-top: -80px;
+    margin-top: -82px;
     margin-left: 337px;
 }
 
@@ -84,7 +94,12 @@ label {
    
 
 .name, .tel, .email, .mess {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 12px;
     width: 100%;
@@ -108,7 +123,11 @@ label {
 }
    
 .tel-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -230,7 +249,12 @@ label {
 /******************************************************* ТЕКСТ */
 
 .help-you {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 121px;
     margin-top: -80px;
@@ -244,7 +268,6 @@ label {
     line-height: 22px;
     color: #1E0606;
     width: 380px;
-    height: 44px;
     margin-bottom: 20px;
 }
 
@@ -256,7 +279,6 @@ label {
     line-height: 22px;
     color: #1E0606;
     width: 380px;
-    height: 66px;
     margin-bottom: 20px;
 }
 
@@ -269,5 +291,4 @@ label {
     text-transform: uppercase;
     color: #C29974;
     width: 380px;
-    height: 68px;
 }
