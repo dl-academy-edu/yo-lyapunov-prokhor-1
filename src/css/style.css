@@ -556,8 +556,8 @@
     text-transform: uppercase;
     color: #1E0606;
     position: absolute;
-    left: 32px;
-    bottom: 207px;
+    margin-top: -22px;
+    margin-left: 32px;
 }
 
 .info__design {
@@ -576,7 +576,6 @@
     position: relative;
     background: #E1F0F7;
     width: 543px;
-    height: 228px;
 }
 
 .info__title {
@@ -606,6 +605,7 @@
     padding: 9px;
     cursor: pointer;
     margin-left: 33px;
+    margin-bottom: 28px;
 }
 
 .contacts-more {
@@ -630,6 +630,7 @@
     flex-direction: column;
     position: relative;
     margin-left: 57px;
+    margin-bottom: 20px;
     background: #E1F0F7;
 
 }
@@ -643,8 +644,8 @@
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
-    bottom: 207px;
-    left: 32px;
+    margin-top: -22px;
+    margin-left: 32px;
 }
 
 .contacts-title {
@@ -1271,7 +1272,6 @@ position: relative;
     background-size: cover;
     border: none;
     width: 15px;
-    height: 15px;
     margin-right: 25px;
    }
 
