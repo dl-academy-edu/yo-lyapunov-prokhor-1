@@ -6,258 +6,251 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="">
-    
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Crimson+Text:ital,wght@1,400;1,700&family=Lato:wght@700&family=Montserrat:wght@200;300;600;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/toys.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/contactus.css">
     <title>My new project</title>
 </head>
 
 <body>
     <header class="header">
         <div class="container header">
-            <a href="#" class="header__logo">
                 <div class="header__logo-img">
-                    <img src="./img/dlk.png" alt="">
+                    <a href="./index.html"><img class="logo-img" src="./img/dlk.png" alt="logo" width="100" height="52"></a>
                 </div>
-               </a>
                 <ul class="header__list">
-                    <li><a href="#" class="header__list-item">BLOG</a></li>
-                    <li><a href="#" class="header__list-item"></a>CATALOG</li>
-                    <li><a href="#" class="header__list-item"></a>ABOUT US</li>
+                    <li><a href="./pages/blog.html" class="header__list-item">BLOG</a></li>
+                    <li><a href="./pages/catalog.html" class="header__list-item">CATALOG</a></li>
+                    <li><a href="#" class="header__list-item">ABOUT US</a></li>
                    </ul>
                 <ul class="header__contact">
-                    <li><img class="header__contact-img" src="./img/loupe.svg" alt=""></li>
-                    <li> <a href="#" class="header__text">CONTACT US</a></li>
+                    <li><img class="header__contact-img" src="./img/loupe.svg" alt="contact" width="17" height="17"></li>
+                    <li><a href="./pages/contactus.html" class="header__text">CONTACT US</a></li>
                    </ul>
         </div>
     </header>
 
     <main class="main">
 
-        <section class="banner">
+        <section class="container">
+            <div class="banner banner-wrap">
+                <div class="banner__wr">
+                    <span>01</span>
+                    <ul class="handle">
+                        <li class="handle__item"></li>
+                        <li class="handle__item"></li>    
+                        <li class="handle__item"></li>     
+                        <li class="handle__item"></li>
+                    </ul>
+                </div>
+                <div class="banner__full">
+                    <h1 class="bunner-collection">THE OOH NOO COLLECTION</h1>
+                    <p class="designed-text">Designed in Slovenia</p>
+                    <button type="button" class="button-btn button-btn-js">EXPLORE NOW</button>
+                </div>
+                <img class="banner__img" src="./img/monster.png" alt="monster" width="636" height="461">
+            </div>
+            <p class="banner-title">FREE(CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</p>
+        </section>
+        <section class="catalog-pro">
             <div class="container">
-                <div class="banner__switch">
-                    <div class="checkbox-group">
-                        <span class="banner__switch__text">01</span>
-                        <ul class="banner__switch__items">
-                            <li><label class="checkbox-one">
-                                <input type="checkbox">
-                                <span class="checkbox-one-switch"></span>
-                            </label></li>
-                            <li><label class="checkbox-two">
-                                <input type="checkbox">
-                                <span class="checkbox-two-switch"></span>
-                            </label></li>
-                            <li><label class="checkbox-three">
-                                <input type="checkbox">
-                                <span class="checkbox-three-switch"></span>
-                            </label></li>
-                            <li><label class="checkbox-four">
-                                <input type="checkbox">
-                                <span class="checkbox-four-switch"></span>
-                            </label></li>
-                        </ul>
+                <h2 class="catalog-title">CATEGORY PRODUCTS</h2>
+                <ul class="catalog-products">
+                    <li class="catalog-kids"><img class="catalog-kids-img" src="./img/kids.jpg" alt="kids" width="280" height="270">  
+                        <a href="#" class="kids-text">APPAREL KIDS</a></li>
+                    <li class="catalog-shop"><img class="catalog-shop-img" src="./img/holiday.png" alt="HOLIDAY SHOP" width="208" height="244">
+                        <a href="#" class="shop-text">HOLIDAY SHOP</a></li>
+                    <li class="catalog-toys"><img class="catalog-toys-img" src="./img/toys.png" alt="toys" width="270" height="270">
+                        <a href="./pages/toys.html" class="toys-text">TOYS</a></li>
+                    <li class="catalog-accessories"><img class="catalog-accessories-img" src="./img/accessories.png" alt="accessories" width="240" height="250">
+                        <a href="#" class="accessories-text">ACCESSORIES</a></li>
+                </ul>
+                <div class="catalog-slider">
+                    <div class="container">
+                        <div class="arrows">
+                            <button class="button-slider-left"></button>
+                            <img class="slider-left" src="./img/left.svg" alt="left" width="37" height="37">
+                            <button class="button-slider-right"></button>
+                            <img class="slider-right" src="./img/right.svg" alt="right" width="37" height="37">
+                            <p class="slider-text">Modern finds for the modern home. Curated goods by unique designers around
+                                the world from fashion to furniture for kids and adults.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bunner__full">
-                    <img class="bunner__one-img" src="#" alt="">
-                    <h1 class="bunner__collection">THE OOH NOO COLLECTION</h1>
-                    <p class="designed__text">Designed in Slovenia</p>
-                    <button type="button" class="button__btn">EXPLORE NOW</button>
-                    <img class="bunner__img" src="./img/monster.png" alt="">
-                </div>
             </div>
         </section>
-        <p class="bunner__title">FREE(CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</p>
-        <section class="catalog">
-            <div class="container">
-                <h2 class="catalog__title">CATEGORY PRODUCTS</h2>
-                <ul class="catalog__products">
-                    <li class="catalog__kids"><img class="catalog__kids__img" src="./img/kids.png" alt="">
-                        <p class="kids__text">APPAREL KIDS</p></li>
-                    <li class="catalog__shop">                    <img class="catalog__shop__img" src="./img/holiday.png" alt="">
-                        <p class="shop__text">HOLIDAY SHOP</p></li>
-                    <li class="catalog__toys"><img class="catalog__toys__img" src="./img/toys.png" alt="">
-                        <p class="toys__text">TOYS</p></li>
-                    <li class="catalog__accessories"><img class="catalog__accessories__img" src="./img/accessories.png" alt="">
-                        <p class="accessories__text">ACCESSORIES</p></li>
-                </ul>
-            </div>
-        </section>
-        <div class="catalog__slider">
-            <div class="container">
-                <button class="button__slider__left"></button>
-                <img class="slider__left" src="./img/left.svg" alt="">
-                <button class="button__slider__right"></button>
-                <img class="slider__right" src="./img/right.svg" alt="">
-                <p class="slider__text">Modern finds for the modern home. Curated goods by unique designers around
-                    the world from fashion to furniture for kids and adults.</p>
-            </div>
-        </div>
 
         <section class="delivery">
             <div class="container">
-                <img class="delivey__img" src="./img/women.png" alt="">
+                <div class="delivery__info">
+                    <img class="delivey-img" src="./img/women.png" alt="women" width="480" height="559">
             <div class="delivery__more">
                 <h2 class="delivery__text">Delivery</h2>
                 <div class="delivery__list">
                     <ul>
-                        <li class="delivery__list__item">Delivery</li>
-                        <li class="delivery__list__item">Guarantee</li>
-                        <li class="delivery__list__item">Credit</li>
+                        <li class="delivery__list__item-del delivery__style">Delivery</li>
+                        <li class="delivery__list__item-gua">Guarantee</li>
+                        <li class="delivery__list__item-cre">Credit</li>
                     </ul>
                 </div>
                 <p class="delivery__title">Some days i feel like i've been working on dlk my entire life 
-                    and there are other days that i am completely shocked that four years have flown by. It's simply magical. <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become 
-                        a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p></p>
-                        <button class="button__btn">LEARN MORE</button>
+                    and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p><p class="delivery__title-second">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become 
+                        a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                        <button class="button-delivery">LEARN MORE</button>
             </div>
+                </div>
             </div>
         </section>
 
         <div class="brands">
-            <ul class="brands__img">
                 <div class="container">
-                    <div class="brands__flex">
-                        <li><img class="mail" src="./img/mail.png" alt=""></li>
-                        <li><img class="apple" src="./img/apple.png" alt=""></li>
-                        <li><img class="eltex" src="./img/eltex.png" alt=""></li>
-                        <li><img class="owox" src="./img/owox.png" alt=""></li>
+                    <ul class="brands__flex">
+                        <li><img class="mail" src="./img/mail.png" alt="mail" width="193" height="60"></li>
+                        <li><img class="apple" src="./img/apple.png" alt="apple" width="179" height="61"></li>
+                        <li><img class="eltex" src="./img/eltex.png" alt="eltex" width="216" height="46"></li>
+                        <li><img class="owox" src="./img/owox.png" alt="owox" width="211" height="40"></li>
                     </ul>
                     </div>
-                </div>
+                    </div>
 
         <section class="info">
             <div class="container">
-                <h3 class="info__text">Design Life Kids</h3>
-                <div class="info__design">
-                <span>About Us</span>
-                <p class="info__title">Some days i feel like i've been working on dlk my entire life and there 
-                    are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                    <button class="button__info">buy now</button>
-                </div>
-            </div>
-            <div class="contacts">
-                <div class="container">
-                    <h3 class="contact__text">Contacts</h3>
-                    <div class="contacts__more">
-                        <p class="contacts__title">Some days i feel like i've been working on dlk my entire life
-                            and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                            <div class="map">
-                               <div id="map-element" class="map__element">
-                                <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/bill_graham_civic_auditorium/200875276609/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Bill Graham Civic Auditorium</a><a href="https://yandex.ru/maps/90/san-francisco/category/entertainment_center/184106372/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Развлекательный центр в Сан‑Франциско</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUZaWEuHD" width="483" height="196" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>  
-                               </div>
-                            </div>
+                <div class="information">
+                    <div class="information__design">
+                        <h3 class="info__text">DESIGN LIFE KIDS</h3>
+                        <p class="info__design">About Us</p>
+                        <p class="info__title">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.  
+                        </p>
+                            <button class="button-info">buy now</button>
+                    </div>
+                <div class="info__contacts">
+                    <h3 class="contact-text">Contacts</h3>
+                        <div class="contacts-more">
+                            <p class="contacts-title">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                                <div class="map">
+                                   <div id="map-element" class="map__element">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5510575195826!2d49.2880382517228!3d53.512214679916035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879ed1ada6fbd%3A0x751234490b1ca980!2sDirect%20Line%20Digital!5e0!3m2!1sru!2sru!4v1665376044203!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
 
     </main>
     
     <footer class="footer">
         <div class="container">
-            <div class="navigation">
-                <div class="navigation__line"></div>
-                <p class="navigation__text">Navigation</p>
-                <div class="footer__info">
-                    <ul>
-                        <li>About Us</li>
-                        <li>Blog</li>
-                        <li>Design Services</li>
-                        <li>Featured On</li>
-                        <li>2018 Holiday Catalog</li>
-                        <li>Shop By Designer</li>
-                    </ul>
+            <div class="footer__aside">
+                <div class="navigation">
+                    <p class="navigation__text">Navigation</p>
+                    <div class="navigation__line"></div>
+                        <ul class="footer__info">
+                            <li class="footer__info-item">About Us</li>
+                            <li class="footer__info-item">Blog</li>
+                            <li class="footer__info-item">Design Services</li>
+                            <li class="footer__info-item">Featured On</li>
+                            <li class="footer__info-item">2018 Holiday Catalog</li>
+                            <li class="footer__info-item">Shop By Designer</li>
+                        </ul>
+                </div>
+                <div class="customer">
+                    <div class="customer__text">Customer Information</div>
+                    <div class="customer__line"></div>
+                        <ul class="footer__customer">
+                            <li class="footer__customer-item">Contact Us</li>
+                            <li class="footer__customer-item">Sale Exclusions</li>
+                            <li class="footer__customer-item">Shipping & Returns</li>
+                            <li class="footer__customer-item">Terms & Conditions</li>
+                            <li class="footer__customer-item">Privacy Policy</li>
+                            <li class="footer__customer-item">Search</li>
+                        </ul>
+                </div>
+                <div class="connect-footer">
+                    <form action="#" method="POST" class="form-elements"></form>
+                        <div class="connect">
+                            <div class="connect__text">Connect</div>
+                            <div class="connect__line"></div>
+                            <div class="footer__mail">
+                                <input class="footer__input" type="text" placeholder="Email">
+                                <button class="footer__button">Join</button>
+                            </div>
+                                <ul class="footer__links">
+                                    <li class="footer__img-item"><img src="./img/facebook.svg" alt="facebook" width="30" height="30"></li>
+                                    <li class="footer__img-item"><img src="./img/twitter.svg" alt="twitter" width="30" height="30"></li>
+                                    <li class="footer__img-item"><img src="./img/pinterest.svg" alt="pinterest" width="30" height="30"></li>
+                                    <li class="footer__img-item"><img src="./img/instagram.svg" alt="instagram" width="30" height="30"></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="footer__box">
+                    <div class="company">
+                        <p class="company__text">Company Rating</p>
+                        <div class="rating-mini">
+                            <div class="rating-area">
+                             <input type="radio" id="star-5" name="rating" value="5">
+                             <label class="label-rating" for="star-5" title="Супер"></label> 
+                             <input type="radio" id="star-4" name="rating" value="4">
+                             <label class="label-rating" for="star-4" title="Хорошо"></label>    
+                             <input type="radio" id="star-3" name="rating" value="3">
+                             <label class="label-rating" for="star-3" title="Пойдет"></label>  
+                             <input type="radio" id="star-2" name="rating" value="2">
+                             <label class="label-rating" for="star-2" title="Не очень"></label>    
+                             <input type="radio" id="star-1" name="rating" value="1">
+                             <label class="label-rating" for="star-1" title="Все sad"></label>
+                            </div> 
+                           </div>
+                          </div>                                          
+                    <div class="footer__info-text">Copyright © 2018 Dlk • Design Life Kids</div>
+                    <div class="footer__web__text">Web Design — Direct Line Development</div>
                 </div>
             </div>
-            <div class="customer">
-                <div class="customer__line"></div>
-                <div class="customer__text">Customer Information</div>
-                <div class="footer__customer">
-                    <ul>
-                        <li>Contact Us</li>
-                        <li>Sale Exclusions</li>
-                        <li>Shipping & Returns</li>
-                        <li>Terms & Conditions</li>
-                        <li>Privacy Policy</li>
-                        <li>Search</li>
-                    </ul>
-                </div>
-            </div>
-            <form action="#" method="POST" class="form__elements">
-            <div class="connect">
-                <div class="connect__line"></div>
-                <div class="footer__mail">
-                    <input class="footer__input" type="text" placeholder="Email">
-                </div>
-                <button class="footer__button">Join</button>
-                <div class="footer__links">
-                    <div class="facebook__img">
-                        <img src="./img/facebook.svg" alt="">
-                    </div>
-                    <div class="twitter__img">
-                        <img src="./img/twitter.svg" alt="">
-                    </div>
-                    <div class="pinterest__img">
-                        <img src="./img/pinterest.svg" alt="">
-                    </div>
-                    <div class="instagram__img">
-                        <img src="./img/instagram.svg" alt="">
-                    </div>
-                    <div class="line__footer"></div>
-                    <div class="rating-mini">
-                        <div class="rating-area">
-                            <input type="radio" id="star-5" name="rating" value="5">
-                            <label for="star-5" title="Оценка «5»"></label>	
-                            <input type="radio" id="star-4" name="rating" value="4">
-                            <label for="star-4" title="Оценка «4»"></label>    
-                            <input type="radio" id="star-3" name="rating" value="3">
-                            <label for="star-3" title="Оценка «3»"></label>  
-                            <input type="radio" id="star-2" name="rating" value="2">
-                            <label for="star-2" title="Оценка «2»"></label>    
-                            <input type="radio" id="star-1" name="rating" value="1">
-                            <label for="star-1" title="Оценка «1»"></label>
-                        </div> 
-                    </div>
-                </div>
-                <div class="footer__info-text">Copyright © 2018 Dlk • Design Life Kids</div>
-                <div class="footer__web__text">Web Design — Direct Line Development</div>
-            </div>
-           </form>
-        </div>
     </footer>
 
-    <div class="form__item">
-        <div class="form__name">Name</div>
-        <label for="name" class="form__label">
-            <input type="text" id="name" name="user-name" class="form__input form__input-text form__input--style" placeholder="">
-        </label>
-        <div class="form__phone">Phone</div>
-        <label for="telephone" class="form__label">
-            <input type="tel" id="telephone" name="user-phone" class="form__input form__input-telephone form__input--style" placeholder="" inputmode="text">
-        </label>
-        <div class="form__email">Email</div>
-        <label for="email" class="form__label">
-            <input type="email" id="email" name="user-email" class="form__input form__input-email form__input--style" placeholder="" inputmode="text">
-        </label>
-        <div class="form__message">Message</div>
-        <label for="message" class="form__label">
-            <input type="message" id="message" name="user-message" class="form__input form__input-message form__input--style" placeholder="" inputmode="text">
-        </label>
-       <div class="form__item">
-        <input type="checkbox" class="form__checkbox" id="check">
-        <label class="form__text form__text--color" for="check">
-            <span>By clicking on the button, you consent to the processing of your personal data</span>
-        </label>    
-       </div>
-       <button type="submit" class="button form__button form__button--style">Submit</button>
-    </div>
 
+    <div class="section-form"> 
+        <div class="container-form">
+         <div class="popup-form"> 
+          <form action="#" method="post">
+           <div class="name">
+            <label class="name-style" for="name">Name</label>
+            <input class="input-name" type="text" id="name" name="user-name">
+           </div>
+           <div class="tel-email">
+            <div class="tel">
+             <label class="label-tel" for="phone">Phone</label>
+             <input class="input-tel" type="tel" id="phone" name="user-phone">
+            </div>
+            <div class="email">
+             <label class="label-email" for="email">Email</label>
+             <input class="input-email" type="email" id="email" name="user-email">
+            </div>
+           </div>
+           <div class="mess">
+            <label class="label-mess" for="message">Message</label>
+            <textarea class="textarea-mess" id="message" name="user-message"></textarea> 
+           </div>
+           <div class="check">
+            <input class="input-check" type="checkbox" id="consent" name="consent">
+            <label class="label-check colouring-item" for="consent"><span>By clicking on the button, you consent to the processing of your personal data</span></label>
+           <button class="button-form" type="button">SUBMIT</button>
+       	   <button disabled="disabled" class="button-disabled" type="button">SUBMIT</button>
+           </div>
+          </form>
+         </div>
+         <button class="button-close" type="button"></button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

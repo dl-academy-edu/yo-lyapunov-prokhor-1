@@ -1,14 +1,24 @@
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-right: auto;
     font-family: 'Open Sans';
@@ -18,8 +28,13 @@
     line-height: 19px;
 }
 
+
 .header__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -29,10 +44,37 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    word-spacing: 2px;
 }
+
+.header__text:hover {
+    opacity: 0.3;
+}
+
+.header__text:active {
+    opacity: 0.2;
+}
+
 .header__list-item {
-    margin-right: 20px;
-    align-items: center;
+    margin-right: 21px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header__list-item:hover {
+    opacity: 0.3;
+}
+
+.header__list-item:active {
+    opacity: 0.2;
+}
+
+.header__list-item:nth-child(2) {
+    margin-left: 9px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .header__logo-img {
@@ -41,9 +83,26 @@
     margin-right: 60px;
 }
 
+.header__logo-img:hover {
+    opacity: 0.3;
+}
+
+.header__logo-img:active {
+    opacity: 0.2;
+}
+
+
 
 .header__contact-img {
-    padding-right: 23.4px;
+    margin-right: 24px;
+}
+
+.header__contact-img:hover {
+    opacity: 0.3;
+}
+
+.header__contact-img:active {
+    opacity: 0.2;
 }
 
 img {
@@ -52,7 +111,8 @@ img {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; 
+    color: #1E0606;
 }
 
 .container {
@@ -67,17 +127,18 @@ li {
 }
 
 
-.button__btn {
+.button-btn {
     display: block;
     font-family: 'Open Sans';
     text-transform: uppercase;
     border: none;
-    width: 149px;
+    width: 163px;
     height: 40px;
+    font-weight: 700;
     color: #FFFFFF;
     background: #000000;
     text-align: center;
     padding: 9px;
     cursor: pointer;
-
+    margin-left: 44px;
 }
